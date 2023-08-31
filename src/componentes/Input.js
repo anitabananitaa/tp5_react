@@ -6,6 +6,16 @@ export default class Input extends React.Component {
     this.state = {};
   }
   render() {
-    return <div>input</div>;
-  }
+    const { titulo, valor, onChange } = this.props;
+    return (
+      <label>
+        {titulo}
+        <input
+          placeholder={titulo}
+          value={valor}
+          onChange={(e) => onChange(e.target.value)}
+        />
+      </label>
+    );
+  }
 }

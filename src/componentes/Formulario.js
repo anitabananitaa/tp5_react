@@ -1,4 +1,5 @@
 import React from "react";
+import Boton from "./Boton";
 import Input from "./Input";
 
 export default class Formulario extends React.Component {
@@ -12,23 +13,25 @@ export default class Formulario extends React.Component {
     };
   }
   render() {
+    const { materia, docente, horas, codigo } = this.state;
     return (
       <div className="Formulario">
+        FORMULARIO DE INGRESO DE MATERIAS
         <label>
           {" "}
-          <Input titulo="materia" />
+          <Input titulo="Materia:" />{" "}
         </label>
         <label>
           {" "}
-          <Input titulo="docente" />
+          <Input titulo="Docente:" />{" "}
         </label>
         <label>
           {" "}
-          <Input titulo="horas" />
+          <Input titulo="Horas:" />{" "}
         </label>
         <label>
           {" "}
-          <Input titulo="codigo" />
+          <Input titulo="Codigo:" />{" "}
         </label>
       </div>
     );

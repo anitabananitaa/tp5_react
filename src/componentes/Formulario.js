@@ -17,22 +17,13 @@ export default class Formulario extends React.Component {
     return (
       <div className="Formulario">
         FORMULARIO DE INGRESO DE MATERIAS
-        <label>
-          {" "}
-          <Input titulo="Materia:" />{" "}
-        </label>
-        <label>
-          {" "}
-          <Input titulo="Docente:" />{" "}
-        </label>
-        <label>
-          {" "}
-          <Input titulo="Horas:" />{" "}
-        </label>
-        <label>
-          {" "}
-          <Input titulo="Codigo:" />{" "}
-        </label>
+          <Input titulo="Materia:" />
+          <Input titulo="Docente:" />
+          <Input titulo="Horas:" />
+        <Input titulo="Codigo:" />
+        <Boton titulo="Guardar"/>
+        <Boton titulo="Agregar"/>
+        <Boton titulo="Mostrar"/>
       </div>
     );
   }

@@ -6,6 +6,10 @@ export default class Boton extends React.Component {
     this.state = {};
   }
   render() {
-    return <div>a</div>;
+    return (
+      <span className="Boton">
+        {this.props.titulo}
+      </span>
+    );
   }
 }

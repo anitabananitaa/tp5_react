@@ -21,9 +21,10 @@ export default class Formulario extends React.Component {
           <Input titulo="Docente:" />
           <Input titulo="Horas:" />
         <Input titulo="Codigo:" />
-        <Boton titulo="Guardar"/>
+        <div className="Botones"><Boton titulo="Guardar"/>
         <Boton titulo="Agregar"/>
-        <Boton titulo="Mostrar"/>
+        <Boton titulo="Mostrar"/></div>
+
       </div>
     );
   }

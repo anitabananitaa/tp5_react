@@ -35,27 +35,32 @@ body {
 
 .Formulario
 input {
-  text-align: left;
-  margin-top: 5px;
   background-color: rgba(0, 0, 0, 0.3); 
-  cursor: text;
-  border: 1px solid #d6d6e7;
+	position: relative;
+	cursor: text;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 16px;
+	height: 30px;
+	border: 1px solid #d6d6e7;
+	border-radius: 3px;
+	color: #D5D8DC;
+  margin: 10px;
 }
 
 .Boton{
-	cursor: pointer;
-	background-color: rgba(0, 0, 0, 0.5);
-	border: 1px solid #d6d6e7;
-	border-radius: 5px;
-	height: 30px;
-	width: 80px ;
-	color: #D5D8DC;
-	margin-right: 10px;
-	margin-left: 15px;
+  cursor: pointer;
+background-color: rgba(0, 0, 0, 0.5);
+border: 1px solid #d6d6e7;
+border-radius: 5px;
+height: 30px;
+width: 80px ;
+color: #D5D8DC;
+margin-right: 10px;
+margin-left: 15px;
 }
 
 .Botones{
   display: flex;
-  flex-direction: row;
   margin-top: 30px;
 }

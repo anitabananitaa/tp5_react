@@ -1,11 +1,20 @@
 import React from "react";
+import Boton from "./Boton";
 
 export default class Listado extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+        Limpiar: "",
+    };
   }
-  render() {
-    return <div>listado</div>;
+  render(){
+    const { limpiar } = this.state;
+    return (
+    <div className="Listado">
+      MATERIAS E INFORMACIÓN 
+      <Boton titulo="Limpiar"/>
+      </div>
+      );
   }
 }

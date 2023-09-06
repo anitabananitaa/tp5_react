@@ -27,11 +27,13 @@ body {
   min-height: calc(100vh - 120px);
 	padding: 10px 120px;
   border-radius: 50px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   align-items: center;
   border: 1px solid #d6d6e7;
   backdrop-filter: blur(1px);
-}
+  color: white;
+  justify-content: center;
+} 
 
 .Formulario
 input {
@@ -53,14 +55,44 @@ input {
 background-color: rgba(0, 0, 0, 0.5);
 border: 1px solid #d6d6e7;
 border-radius: 5px;
-height: 30px;
+height: 20px;
 width: 80px ;
 color: #D5D8DC;
 margin-right: 10px;
 margin-left: 15px;
+text-align: center;
 }
 
 .Botones{
   display: flex;
   margin-top: 30px;
+}
+
+.Listado{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    min-height: calc(100vh - 120px);
+    padding: 10px 120px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    border: 1px solid #d6d6e7;
+    backdrop-filter: blur(1px);
+    color: white;
+  } 
+
+  
+.Listado .Boton{
+  cursor: pointer;
+background-color: rgba(0, 0, 0, 0.5);
+border: 1px solid #ffffff;
+border-radius: 5px;
+height: 20px;
+width: 80px ;
+color: #ffffff;
+margin-top: 500px;
+margin-right: 10px;
+margin-left: 15px;
+text-align: center;
 }

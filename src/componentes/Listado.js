@@ -12,9 +12,9 @@ export default class Listado extends React.Component {
     const { limpiar } = this.state;
     return (
     <div className="Listado">
-      MATERIAS E INFORMACIÓN 
+      <h3> MATERIAS E INFORMACIÓN </h3>
       <Boton titulo="Limpiar"/>
-      </div>
-      );
+    </div>
+    );
   }
 }
